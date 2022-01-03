@@ -102,7 +102,7 @@ main {
 main section {
   background: rgba(21, 39, 63, 255);
   padding: 6.5% 0 0 0;
-  margin: 0% 6.5% 0;
+  margin: 2% 6.5% 0;
   border-radius: 15px;
   box-shadow: 0 0 10px 3px rgba(0, 0, 0, .5);
 }
@@ -140,8 +140,8 @@ p {
   justify-content: space-between;
   border-bottom: 1px solid #2e4058;
   width: 86%;
-  margin: -2% auto 3%;
-  padding: 0 0 5% 0;
+  margin: 0% auto 1%;
+  padding: 0 0 4% 0;
 }
 
 .upperLeft {
@@ -182,8 +182,8 @@ p {
   color: #a0b7d7;
   display: flex;
   align-items: center;
-  padding: 0 0 7% 0;
-  margin: 4% 0 0 0;
+  padding: 3% 0 7% 0;
+  margin: 0% 0 1% 0;
 }
 
 .lowerBlock span {
