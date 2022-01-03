@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
 /* Box sizing rules */
 *,
 *::before,
@@ -60,8 +62,9 @@ select {
 /* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
-   scroll-behavior: auto;
+    scroll-behavior: auto;
   }
+
   *,
   *::before,
   *::after {
@@ -70,4 +73,131 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* ff Outfit 
+## Colors
+
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+*/
+
+main {
+  background: #0c192c;
+  font-family: Outfit;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+main section {
+  background: rgba(21, 39, 63, 255);
+  padding: 6.5% 0 0 0;
+  margin: 0% 6.5% 0;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, .5);
+}
+
+main section>img {
+  width: 85%;
+  margin: 0% auto 0%;
+  border-radius: 7px;
+}
+
+main section>h1 {
+  padding: 1% 0 0 0;
+  margin: 5.5% 5% 0 7.3%;
+  font-size: 3.3vh;
+  color: #faffff;
+}
+
+main section>p {
+  margin: 2.5% 5% 0 7.3%;
+  font-weight: lighter;
+  line-height: 4vh;
+  padding: 0 0 5% 0;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: #8a9fbe;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #2e4058;
+  width: 86%;
+  margin: -2% auto 3%;
+  padding: 0 0 5% 0;
+}
+
+.upperLeft {
+  color: #14faf2;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.upperRight {
+  color: #a0b7d7;
+  display: flex;
+  align-items: center;
+  width: 55%;
+}
+
+.upperLeft img,
+.upperRight img {
+  height: 20px;
+}
+
+.upperLeft img {
+  padding: 0 3% 0 0;
+  margin: 0 0% 0 0%;
+}
+
+.upperRight img {
+  margin-right: 5px;
+}
+
+.upperRight span {
+  padding: 0 0 0 0%;
+  font-weight: lighter;
+  font-size: 2.3vh;
+}
+
+.lowerBlock {
+  color: #a0b7d7;
+  display: flex;
+  align-items: center;
+  padding: 0 0 7% 0;
+  margin: 4% 0 0 0;
+}
+
+.lowerBlock span {
+  font-size: 2.3vh;
+}
+
+.lowerBlock a {
+  text-decoration: none;
+  color: white;
+}
+
+.lowerBlock img {
+  width: 34px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 0 4.3% 0 7%;
 }
