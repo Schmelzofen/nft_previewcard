@@ -94,7 +94,7 @@ select {
 main {
   background: #0c192c;
   font-family: Outfit;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
 }
@@ -200,4 +200,46 @@ p {
   border: 1px solid white;
   border-radius: 50%;
   margin: 0 4.3% 0 7%;
+}
+
+@media screen and (min-width: 1440px) {
+  main {
+    justify-content: center;
+  }
+
+  main section {
+    margin: 2% 0 0 0;
+    width: 350px;
+    height: 600px;
+    padding: 6.5% 0 3% 0;
+  }
+
+  main section>img {
+    width: 86%;
+    margin: -20% auto 0;
+  }
+
+  main section>h1 {
+    font-size: 2.5vh;
+    padding: 1% 0 1.2% 0;
+  }
+
+  main section>p {
+    font-size: 2vh;
+    line-height: 26px;
+    padding: 0 0 6% 0;
+  }
+
+  .upperRight span {
+    font-size: 1.9vh;
+  }
+
+  .flex {
+    padding: 0 0 7% 0;
+  }
+
+  .lowerBlock span {
+    font-size: 1.8vh;
+  }
+
 }
